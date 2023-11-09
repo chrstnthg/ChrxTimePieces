@@ -1,0 +1,30 @@
+@import "./global/header.css";
+@import "./global/global.css";
+@import "./global/footer.css";
+
+@import "./home/introducao.css";
+@import "./home/depoimento.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/formulario.css";
+@import "./utilidades/cores.css";
+
+@import "./relogios/relogios-lista.css";
+@import "./relogios/relogios.css";
+
+@import "./relogiosbg/relogio.css";
+@import "./relogiosbg/seguro.css";
+
+@import "./Seguros/seguros.css";
+@import "./Seguros/perguntas.css";
+@import "./Seguros/vantagens.css";
+
+@import "./termos/termos.css";
+
+@import "./contatos/contato.css";
+@import "./contatos/lojas.css";
+
+@import "./orçamento/orçamento.css";

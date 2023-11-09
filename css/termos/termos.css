@@ -1,0 +1,32 @@
+.titulo-bg {
+  background-color: #111;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.titulo-bg p {
+  color: #b2b2b2;
+}
+.titulo-bg h1 {
+  color: white;
+}
+.titulo-bg span {
+  color: #b72d2d;
+}
+.termos {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.termos h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.termos p + h2 {
+  margin-top: 40px;
+}
+
+.termos p {
+  max-width: 75ch;
+  margin-bottom: 24px;
+}

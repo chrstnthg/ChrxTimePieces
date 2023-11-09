@@ -1,0 +1,140 @@
+.relogios-bg {
+  background: linear-gradient(to right, #fff 30%, #111 0%);
+}
+
+.relogios-conteudo1 h2 {
+  color: #111;
+}
+.relogios-conteudo1 p {
+  color: #595959;
+}
+.relogios-conteudo1 ul {
+  color: #595959;
+}
+
+.relogios-conteudo h2 {
+  color: #fff;
+}
+.relogios-conteudo p {
+  color: #b2b2b2;
+}
+.relogios-conteudo ul {
+  color: #b2b2b2;
+}
+
+.relogios-imagem span {
+  color: #ffff;
+}
+
+.relogios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.relogios-imagem {
+  display: grid;
+}
+
+.relogios-imagem img {
+  grid-area: 1/1;
+}
+
+.relogios-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 20px;
+  background: #000;
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px 0 0 4px;
+}
+
+.relogios-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+.relogios-conteudo1 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.relogios h2,
+.relogios p {
+  grid-column: 1/-1;
+}
+
+.relogios h2 {
+  margin-bottom: 20px;
+}
+
+.relogios h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: #b72d2d;
+  margin-bottom: 8px;
+}
+
+.relogios p {
+  margin-bottom: 32px;
+}
+
+.relogios a {
+  place-self: end;
+}
+
+.relogios li {
+  display: flex;
+  align-items: center;
+}
+
+.relogios ul {
+  display: grid;
+  gap: 16px;
+}
+
+.relogios-conteudo img {
+  width: 24px;
+  margin-right: 8px;
+}
+.relogios-conteudo1 img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+  .relogios-bg {
+    background: #b72d2d;
+  }
+  .relogios {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .relogios-conteudo {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 600px) {
+    .relogios-conteudo1 {
+      grid-template-columns: 1fr;
+    }
+    .relogios ul {
+      font-size: 1rem;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 32px;
+    }
+    .relogios a {
+      place-self: start;
+    }
+  }
+}
